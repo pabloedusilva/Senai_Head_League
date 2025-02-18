@@ -21,7 +21,7 @@ O objetivo é simples: marque 10 gols antes do seu oponente! O jogo é jogado em
 
 - **Movimentação:** Use as setas do teclado para mover seu personagem.
 
-imagem dos botões
+imagem controles
 
 ## Como Jogar
 
@@ -51,7 +51,7 @@ Para baixar o Construct 2 e começar a criar seus próprios jogos, acesse os lin
 
 ## Conclusão
 
-Esperamos que você se divirta jogando SENAI HEAD SOCCER tanto quanto nós nos divertimos desenvolvendo! Sinta-se à vontade para compartilhar suas experiências e feedback. Boa sorte e que vença o melhor!
+Esperamos que você se divirta jogando SENAI HEAD SOCCER tanto quanto eu me diverti desenvolvendo! Sinta-se à vontade para compartilhar suas experiências e feedback. Boa sorte e que vença o melhor!
 
 **Desenvolvedor:** Pablo   
 **Contato:** pablo.silva.edu@gmail.com
