@@ -21,7 +21,8 @@ O objetivo é simples: marque 10 gols antes do seu oponente! O jogo é jogado em
 
 - **Movimentação:** Use as setas do teclado para mover seu personagem.
 
-imagem controles
+![Pular (80 x 40 px) (1920 x 1080 px)](https://github.com/user-attachments/assets/ac337c36-6dde-4250-9ac8-70ee7f456f57)
+
 
 ## Como Jogar
 
@@ -47,7 +48,14 @@ Para baixar o Construct 2 e começar a criar seus próprios jogos, acesse os lin
 - [Adicione aqui os GIFs de demonstração do jogo]
 
 **Galeria**
-- [Adicione aqui as fotos reais do jogo]
+![image](https://github.com/user-attachments/assets/d0ac6142-a7b2-46b7-9192-d8ee006a51d8)
+
+![image](https://github.com/user-attachments/assets/f1781980-2148-4cba-8fb5-a3f4f192fb84)
+
+![image](https://github.com/user-attachments/assets/e993fb8f-7135-4fa1-8916-a6c8e9eb86c8)
+
+
+
 
 ## Conclusão
 
