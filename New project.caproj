@@ -12,11 +12,13 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -33,6 +35,7 @@
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">High quality</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
@@ -191,28 +194,12 @@
                 <behavior-type name="Solid" sid="416057555946656">
                     <behavior id="solid" />
                 </behavior-type>
-                <behavior-type name="Physics" sid="858249965585985">
+                <behavior-type name="Physics" sid="642449562601955">
                     <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336601688395239" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Limite_gol_Vermelho" sid="356064137381470">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775235997605615" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Limte_Gol_Azul" sid="753382033240521">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532101495203436" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -301,6 +288,24 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="relogio" sid="889186089557208">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="minutos" sid="936225703480162" type="number" />
+                <instance-variable name="segundos" sid="454986437274518" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="447847153535822">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Points_Player1" sid="809265978730882">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Points_Player2" sid="990347317225902">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

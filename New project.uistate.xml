@@ -36,8 +36,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/LimitesBackground/" />
         <folder expanded="1" path="animation-folder/Ball/" />
         <folder expanded="1" path="animation-folder/Limite_Gols/" />
-        <folder expanded="1" path="animation-folder/Limite_gol_Vermelho/" />
-        <folder expanded="1" path="animation-folder/Limte_Gol_Azul/" />
         <folder expanded="1" path="animation-folder/Placar/" />
         <folder expanded="1" path="animation-folder/Gol_Player2/" />
         <folder expanded="1" path="animation-folder/Gol_Player1/" />
