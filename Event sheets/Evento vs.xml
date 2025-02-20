@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Evento vs</name>
+    <events>
+        <event-group description="" sid="145723903401558" title="StartLayout">
+            <sub-events>
+                <event-block sid="787842682227774">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="372785041796793" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="375642619587194" type="SelectP1">
+                            <param id="0" name="Frame number">p1selecionouquem</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="929761033836961" type="SelectP2">
+                            <param id="0" name="Frame number">p2selecionouquem</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="102251025290018" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="190974947448762" type="System">
+                            <param id="0" name="Layout">Game</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

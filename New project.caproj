@@ -11,6 +11,7 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
@@ -27,8 +28,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>3834</width>
-        <height>2156</height>
+        <width>3840</width>
+        <height>2160</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -307,16 +308,150 @@
         <object-type name="Points_Player2" sid="990347317225902">
             <plugin id="Text" />
         </object-type>
+        <object-type name="MenuSelect" sid="357354224929482">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687229387772917" speed="5">
+                    <frame duration="1" hotspotX="0.000304229" hotspotY="0.000426985" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\MenuSelect.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="displayp1" sid="740005722999912">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145977470138666" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="displayp2" sid="725477920478529">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400817450839453" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Guilherme" sid="924478486323101">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="784939309665474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Guilherme.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Luiz" sid="585556534585365">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415963154341568" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Luiz.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Victor" sid="345702935589197">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303232974291093" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P2escolha" sid="777876489934541">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798802055743533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\SelectP2.png">
+                        <collision-poly>
+                            <point x="0.0210084" y="0.0365854" />
+                            <point x="0.5" y="0.00406504" />
+                            <point x="0.978992" y="0.0365854" />
+                            <point x="0.995798" y="0.979675" />
+                            <point x="0.5" y="0.995935" />
+                            <point x="0.00420168" y="0.979675" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P1escolha" sid="349988248612757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306573246934735" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\SelectP1.png">
+                        <collision-poly>
+                            <point x="0" y="0.0290502" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0.0290502" />
+                            <point x="1" y="0.987474" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="0.987474" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="376108893678090">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TelaVS" sid="612647496961280">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807503138990588" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\TelaVS.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectP1" sid="546377246367666">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166071817775019" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectP2" sid="728005353086325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488232247541526" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="283934233997220">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919197466163943" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Capa.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Game.xml</layout>
+        <layout>Selecao.xml</layout>
+        <layout>Tela Vs.xml</layout>
+        <layout>Capa.xml</layout>
+        <layout>Win.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Evento game.xml</event-sheet>
+        <event-sheet>Evento selecao.xml</event-sheet>
+        <event-sheet>Evento vs.xml</event-sheet>
+        <event-sheet>Evento capa.xml</event-sheet>
+        <event-sheet>Evento Win.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="18" />
+        <global-instance type="Mouse" uid="33" />
     </global-instances>
     <sounds-folder />
     <music-folder />

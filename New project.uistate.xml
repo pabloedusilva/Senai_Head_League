@@ -10,8 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="6">Game</layout>
+        <layout order="2">Selecao</layout>
+        <layout order="4">Tela Vs</layout>
+        <layout order="0">Capa</layout>
+        <layout order="8">Win</layout>
+        <event-sheet active="1" order="7">Evento game</event-sheet>
+        <event-sheet order="3">Evento selecao</event-sheet>
+        <event-sheet order="5">Evento vs</event-sheet>
+        <event-sheet order="1">Evento capa</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -41,5 +48,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Gol_Player1/" />
         <folder expanded="1" path="animation-folder/Player_1/" />
         <folder expanded="1" path="animation-folder/Player_2/" />
+        <folder expanded="1" path="animation-folder/MenuSelect/" />
+        <folder expanded="1" path="animation-folder/displayp1/" />
+        <folder expanded="1" path="animation-folder/displayp2/" />
+        <folder expanded="1" path="animation-folder/Guilherme/" />
+        <folder expanded="1" path="animation-folder/Luiz/" />
+        <folder expanded="1" path="animation-folder/Victor/" />
+        <folder expanded="1" path="animation-folder/P2escolha/" />
+        <folder expanded="1" path="animation-folder/P1escolha/" />
+        <folder expanded="1" path="animation-folder/TelaVS/" />
+        <folder expanded="1" path="animation-folder/SelectP1/" />
+        <folder expanded="1" path="animation-folder/SelectP2/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
