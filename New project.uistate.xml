@@ -10,15 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="6">Game</layout>
-        <layout order="2">Selecao</layout>
-        <layout order="4">Tela Vs</layout>
         <layout order="0">Capa</layout>
+        <layout active="1" order="2">Selecao</layout>
+        <layout order="4">Tela Vs</layout>
+        <layout order="6">Game</layout>
         <layout order="8">Win</layout>
-        <event-sheet active="1" order="7">Evento game</event-sheet>
+        <event-sheet order="1">Evento capa</event-sheet>
         <event-sheet order="3">Evento selecao</event-sheet>
         <event-sheet order="5">Evento vs</event-sheet>
-        <event-sheet order="1">Evento capa</event-sheet>
+        <event-sheet order="7">Evento game</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

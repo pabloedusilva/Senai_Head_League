@@ -103,17 +103,44 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868676037491819" speed="5">
-                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Luiz.png">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868676037491819" speed="0">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Guilherme.png">
                         <collision-poly>
                             <point x="0.105948" y="0.137277" />
                             <point x="0.507435" y="0.0078125" />
-                            <point x="0.817844" y="0.120536" />
-                            <point x="0.884758" y="0.440848" />
+                            <point x="0.970516" y="0.179052" />
+                            <point x="0.831323" y="0.649834" />
                             <point x="0.98513" y="0.875" />
-                            <point x="0.507435" y="0.991071" />
-                            <point x="0.0260223" y="0.86384" />
-                            <point x="0.0297398" y="0.440848" />
+                            <point x="0.85858" y="0.987461" />
+                            <point x="0.117625" y="1" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Luiz.png">
+                        <collision-poly>
+                            <point x="0.0315986" y="0.204241" />
+                            <point x="0.492565" y="0" />
+                            <point x="0.896166" y="0.187981" />
+                            <point x="0.831323" y="0.649834" />
+                            <point x="0.98513" y="0.875" />
+                            <point x="0.85858" y="0.987461" />
+                            <point x="0.117625" y="1" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.474632" hotspotY="0.473186" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Victor.png">
+                        <collision-poly>
+                            <point x="0" y="0.204241" />
+                            <point x="0.492565" y="0" />
+                            <point x="0.961632" y="0.209011" />
+                            <point x="0.746217" y="0.666658" />
+                            <point x="0.886931" y="0.875" />
+                            <point x="0.812753" y="0.991667" />
+                            <point x="0.196185" y="0.978969" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -133,17 +160,44 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119064157779963" speed="5">
-                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Guilherme.png">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119064157779963" speed="0">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Guilherme.png">
                         <collision-poly>
-                            <point x="0.116412" y="0.128527" />
-                            <point x="0.503817" y="0.0135841" />
-                            <point x="0.929389" y="0.153605" />
-                            <point x="0.916031" y="0.478579" />
-                            <point x="0.954198" y="0.884012" />
-                            <point x="0.503817" y="0.991641" />
-                            <point x="0.0229008" y="0.884012" />
-                            <point x="0.0419847" y="0.478579" />
+                            <point x="0.0839695" y="0.129572" />
+                            <point x="0.555343" y="0" />
+                            <point x="0.942748" y="0.15047" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.961832" y="0.880355" />
+                            <point x="0.89313" y="0.987461" />
+                            <point x="0.125954" y="1" />
+                            <point x="9.31323e-010" y="0.828632" />
+                            <point x="0.10687" y="0.617033" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Luiz.png">
+                        <collision-poly>
+                            <point x="0.0839695" y="0.129572" />
+                            <point x="0.555343" y="0" />
+                            <point x="0.942748" y="0.15047" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.961832" y="0.880355" />
+                            <point x="0.89313" y="0.987461" />
+                            <point x="0.125954" y="1" />
+                            <point x="9.31323e-010" y="0.828632" />
+                            <point x="0.10687" y="0.617033" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.474632" hotspotY="0.473186" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Victor.png">
+                        <collision-poly>
+                            <point x="0.0381429" y="0.285197" />
+                            <point x="0.339304" y="0" />
+                            <point x="0.923108" y="0.171501" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.883273" y="0.863531" />
+                            <point x="0.781838" y="0.974842" />
+                            <point x="0.158688" y="1" />
+                            <point x="0.0196399" y="0.837044" />
+                            <point x="0.10687" y="0.667506" />
                         </collision-poly>
                     </frame>
                 </animation>

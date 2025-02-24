@@ -20,6 +20,10 @@
                             <param id="1" name="Angle">random(360)</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="229125515902126" type="BodyPlayer_2">
+                            <param id="0" name="Pin to">Player_2</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="929968604841609" type="BodyPlayer_1">
                             <param id="0" name="Pin to">Player_1</param>
                             <param id="1" name="Mode">0</param>
@@ -27,10 +31,6 @@
                         <action id="-3" name="Set position" sid="622891061107300" type="Player_1">
                             <param id="0" name="X">483.482</param>
                             <param id="1" name="Y">1953.899</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="229125515902126" type="BodyPlayer_2">
-                            <param id="0" name="Pin to">Player_2</param>
-                            <param id="1" name="Mode">0</param>
                         </action>
                         <action id="-3" name="Set position" sid="295652778721109" type="Player_2">
                             <param id="0" name="X">3301</param>
@@ -40,6 +40,12 @@
                             <param id="0" name="Duration">1.0</param>
                             <param id="1" name="Type">1</param>
                             <param id="2" name="Tag">&quot;relogio&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="717100594307444" type="BodyPlayer_1">
+                            <param id="0" name="Frame number">p1selecionouquem</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="828734418945811" type="BodyPlayer_2">
+                            <param id="0" name="Frame number">p2selecionouquem</param>
                         </action>
                     </actions>
                 </event-block>
