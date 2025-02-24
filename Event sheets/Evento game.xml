@@ -13,10 +13,10 @@
                     </conditions>
                     <actions>
                         <action behavior="Physics" id="12" name="Set world gravity" sid="206583905268592" type="Ball">
-                            <param id="0" name="Gravity">10</param>
+                            <param id="0" name="Gravity">25</param>
                         </action>
                         <action behavior="Physics" id="2" name="Apply force at angle" sid="167245868825151" type="Ball">
-                            <param id="0" name="Force">400</param>
+                            <param id="0" name="Force">100</param>
                             <param id="1" name="Angle">random(360)</param>
                             <param id="2" name="Image point">0</param>
                         </action>
