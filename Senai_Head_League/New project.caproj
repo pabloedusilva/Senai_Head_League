@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>3840</width>
+        <height>2160</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">High quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Background" sid="347614582248020">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628780323664884" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gol_Player_2" sid="300903542231799">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409214634335910" speed="5">
+                    <frame duration="1" hotspotX="0.503344" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\JOGO CONSTRUCT 2\imagens\Gol.png">
+                        <collision-poly>
+                            <point x="0.00334448" y="0.0740741" />
+                            <point x="0.503344" y="0.136752" />
+                            <point x="0.914716" y="0.850427" />
+                            <point x="0.503344" y="0.921652" />
+                            <point x="0.00334448" y="0.925926" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gol_Player_1" sid="496998167040766">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279041708752158" speed="5">
+                    <frame duration="1" hotspotX="0.496656" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\JOGO CONSTRUCT 2\imagens\Gol.png">
+                        <collision-poly>
+                            <point x="0.996656" y="0.925926" />
+                            <point x="0.496656" y="0.921652" />
+                            <point x="0.0852843" y="0.850427" />
+                            <point x="0.496656" y="0.136752" />
+                            <point x="0.996656" y="0.0740741" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BodyPlayer_2" sid="924983005021917">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="666771030976819">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="919340071215836">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="938085363446383">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868676037491819" speed="0">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Guilherme.png">
+                        <collision-poly>
+                            <point x="0.105948" y="0.137277" />
+                            <point x="0.507435" y="0.0078125" />
+                            <point x="0.970516" y="0.179052" />
+                            <point x="0.831323" y="0.649834" />
+                            <point x="0.98513" y="0.875" />
+                            <point x="0.85858" y="0.987461" />
+                            <point x="0.117625" y="1" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Luiz.png">
+                        <collision-poly>
+                            <point x="0.0315986" y="0.204241" />
+                            <point x="0.492565" y="0" />
+                            <point x="0.896166" y="0.187981" />
+                            <point x="0.831323" y="0.649834" />
+                            <point x="0.98513" y="0.875" />
+                            <point x="0.85858" y="0.987461" />
+                            <point x="0.117625" y="1" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.474632" hotspotY="0.473186" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Victor.png">
+                        <collision-poly>
+                            <point x="0" y="0.204241" />
+                            <point x="0.492565" y="0" />
+                            <point x="0.961632" y="0.209011" />
+                            <point x="0.746217" y="0.666658" />
+                            <point x="0.886931" y="0.875" />
+                            <point x="0.812753" y="0.991667" />
+                            <point x="0.196185" y="0.978969" />
+                            <point x="0.0278811" y="0.886408" />
+                            <point x="0.121343" y="0.670733" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BodyPlayer_1" sid="236979429533637">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="623691595902733">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="286063997384912">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="831658445554632">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119064157779963" speed="0">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Guilherme.png">
+                        <collision-poly>
+                            <point x="0.0839695" y="0.129572" />
+                            <point x="0.555343" y="0" />
+                            <point x="0.942748" y="0.15047" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.961832" y="0.880355" />
+                            <point x="0.89313" y="0.987461" />
+                            <point x="0.125954" y="1" />
+                            <point x="9.31323e-010" y="0.828632" />
+                            <point x="0.10687" y="0.617033" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Luiz.png">
+                        <collision-poly>
+                            <point x="0.0839695" y="0.129572" />
+                            <point x="0.555343" y="0" />
+                            <point x="0.942748" y="0.15047" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.961832" y="0.880355" />
+                            <point x="0.89313" y="0.987461" />
+                            <point x="0.125954" y="1" />
+                            <point x="9.31323e-010" y="0.828632" />
+                            <point x="0.10687" y="0.617033" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.474632" hotspotY="0.473186" original-source="C:\Users\Alunos\Documents\Pablo\Senai_Head_League\imagens\Victor.png">
+                        <collision-poly>
+                            <point x="0.0381429" y="0.285197" />
+                            <point x="0.339304" y="0" />
+                            <point x="0.923108" y="0.171501" />
+                            <point x="0.839695" y="0.668756" />
+                            <point x="0.883273" y="0.863531" />
+                            <point x="0.781838" y="0.974842" />
+                            <point x="0.158688" y="1" />
+                            <point x="0.0196399" y="0.837044" />
+                            <point x="0.10687" y="0.667506" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LimitesBackground" sid="695250528032738">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="669909407708097">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="592667058802813">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955338527845503" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ball" sid="769961003735683">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="459000432302981">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="469734452039955" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\JOGO CONSTRUCT 2\imagens\Ball.png">
+                        <collision-poly>
+                            <point x="0.147687" y="0.147687" />
+                            <point x="0.5" y="0.00177936" />
+                            <point x="0.852313" y="0.147687" />
+                            <point x="0.998221" y="0.5" />
+                            <point x="0.852313" y="0.852313" />
+                            <point x="0.5" y="0.998221" />
+                            <point x="0.147687" y="0.852313" />
+                            <point x="0.00177936" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Limite_Gols" sid="235430498706072">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="416057555946656">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="642449562601955">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336601688395239" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="636958609499561">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Placar" sid="857600390442293">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643989535070787" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Placar.png">
+                        <collision-poly>
+                            <point x="0.0895954" y="0.0034965" />
+                            <point x="0.910405" y="0.0034965" />
+                            <point x="0.99711" y="0.5" />
+                            <point x="0.66474" y="0.699301" />
+                            <point x="0.5" y="0.996503" />
+                            <point x="0.33815" y="0.695804" />
+                            <point x="0.00289017" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gol_Player2" sid="727260172385900">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="853150408025838" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gol_Player1" sid="440413250467345">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="938387606186698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player_1" sid="536018318265360">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="537379344531992">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700734731369445" speed="5">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.478579" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Guilherme.png">
+                        <collision-poly>
+                            <point x="0.146947" y="0.107628" />
+                            <point x="0.503817" y="0.0135841" />
+                            <point x="0.959924" y="0.141066" />
+                            <point x="0.916031" y="0.478579" />
+                            <point x="0.954198" y="0.884012" />
+                            <point x="0.503817" y="0.991641" />
+                            <point x="0.0381679" y="0.900731" />
+                            <point x="0.0419847" y="0.478579" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player_2" sid="820635870853340">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="996855261613207">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548820251032820" speed="5">
+                    <frame duration="1" hotspotX="0.507435" hotspotY="0.440848" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Hand League\imagens\Luiz.png">
+                        <collision-poly>
+                            <point x="0.150558" y="0.092634" />
+                            <point x="0.507435" y="0.0078125" />
+                            <point x="0.817844" y="0.129464" />
+                            <point x="0.884758" y="0.440848" />
+                            <point x="0.977695" y="0.892858" />
+                            <point x="0.507435" y="0.991071" />
+                            <point x="0.0260223" y="0.877232" />
+                            <point x="0.0297398" y="0.440848" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="relogio" sid="889186089557208">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="minutos" sid="936225703480162" type="number" />
+                <instance-variable name="segundos" sid="454986437274518" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="447847153535822">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Points_Player1" sid="809265978730882">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Points_Player2" sid="990347317225902">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MenuSelect" sid="357354224929482">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687229387772917" speed="5">
+                    <frame duration="1" hotspotX="0.000304229" hotspotY="0.000426985" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\MenuSelect.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="displayp1" sid="740005722999912">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145977470138666" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="displayp2" sid="725477920478529">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400817450839453" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Guilherme" sid="924478486323101">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="784939309665474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Guilherme.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Luiz" sid="585556534585365">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415963154341568" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Luiz.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Victor" sid="345702935589197">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303232974291093" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P2escolha" sid="777876489934541">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798802055743533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\SelectP2.png">
+                        <collision-poly>
+                            <point x="0.0210084" y="0.0365854" />
+                            <point x="0.5" y="0.00406504" />
+                            <point x="0.978992" y="0.0365854" />
+                            <point x="0.995798" y="0.979675" />
+                            <point x="0.5" y="0.995935" />
+                            <point x="0.00420168" y="0.979675" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P1escolha" sid="349988248612757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306573246934735" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\SelectP1.png">
+                        <collision-poly>
+                            <point x="0" y="0.0290502" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0.0290502" />
+                            <point x="1" y="0.987474" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="0.987474" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="376108893678090">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TelaVS" sid="612647496961280">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807503138990588" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\TelaVS.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectP1" sid="546377246367666">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166071817775019" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectP2" sid="728005353086325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488232247541526" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Guilherme.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Luiz.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Displays\Victor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="283934233997220">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919197466163943" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Alunos\Documents\Pablo\SENAI Head League\imagens\Capa.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="272698763900771">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613393502479241" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Alunos\Desktop\SenaiHeadLeague\imagens\Pedro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Game.xml</layout>
+        <layout>Selecao.xml</layout>
+        <layout>Tela Vs.xml</layout>
+        <layout>Capa.xml</layout>
+        <layout>Win.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Evento game.xml</event-sheet>
+        <event-sheet>Evento selecao.xml</event-sheet>
+        <event-sheet>Evento vs.xml</event-sheet>
+        <event-sheet>Evento capa.xml</event-sheet>
+        <event-sheet>Evento Win.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="18" />
+        <global-instance type="Mouse" uid="33" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
